@@ -1,4 +1,4 @@
-# Opscripts
+# OpsQuill
 
 A collection of **Shell scripts** and **Python automation tools** built to simplify and automate day-to-day **DevOps operations**.
 
@@ -17,7 +17,7 @@ This repository focuses purely on **automation** - helping engineers save time o
 ## 📂 Repository Structure
 
 ```
-sv-opscripts/
+sv-opsquill/
 ├── shell-scripts/        # Bash automation scripts
 ├── python-scripts/       # Python automation tools
 └── README.md
@@ -30,8 +30,8 @@ sv-opscripts/
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/sv-opscripts.git
-cd sv-opscripts
+git clone https://github.com/your-username/sv-opsquill.git
+cd sv-opsquill
 ```
 
 Make shell scripts executable before running them:
