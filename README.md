@@ -1,4 +1,4 @@
-# OpsForge
+# Opscripts
 
 A collection of **Shell scripts** and **Python automation tools** built to simplify and automate day-to-day **DevOps operations**.
 
@@ -17,7 +17,7 @@ This repository focuses purely on **automation** - helping engineers save time o
 ## 📂 Repository Structure
 
 ```
-sv-opsforge/
+sv-opscripts/
 ├── shell-scripts/        # Bash automation scripts
 ├── python-scripts/       # Python automation tools
 └── README.md
@@ -30,8 +30,8 @@ sv-opsforge/
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/sv-opsforge.git
-cd sv-opsforge
+git clone https://github.com/your-username/sv-opscripts.git
+cd sv-opscripts
 ```
 
 Make shell scripts executable before running them:
