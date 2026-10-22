@@ -1,0 +1,60 @@
+name: "📋 Open an Issue"
+description: Report a bug, suggest an enhancement, or request a new script
+title: "[Issue]: "
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of issue
+      description: Pick the one that fits best. Add the matching label after submitting.
+      options:
+        - "🐞 Bug"
+        - "✨ Enhancement"
+        - "📜 New script"
+        - "❓ Other"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: section
+    attributes:
+      label: Section
+      options:
+        - shell-scripts
+        - python-scripts
+        - README / Docs
+        - Other / New section
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Script name (if applicable)
+      placeholder: e.g. shell-scripts/devops-setup.sh
+    validations:
+      required: false
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What's not working, what should improve, or what script you'd like added
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment (for bugs)
+      description: OS/distro, Bash or Python version, anything relevant
+      placeholder: e.g. Ubuntu 22.04, Bash 5.1, Python 3.11
+    validations:
+      required: false
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested fix or script idea (optional)
+    validations:
+      required: false
